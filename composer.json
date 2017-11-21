@@ -1,0 +1,28 @@
+{
+  "name": "loveorigami/yii2-colorbox",
+  "description": "This widget is wrapper for awesome jQuery plugin Colorbox",
+  "keywords": [
+    "yii2",
+    "widget",
+    "colorbox"
+  ],
+  "version": "1.0",
+  "homepage": "https://github.com/loveorigami/yii2-colorbox",
+  "type": "yii2-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Lukyanov Andrey",
+      "homepage": "http://loveorigami.info"
+    }
+  ],
+  "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/jquery-colorbox": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lo\\widgets\\colorbox\\": "/src"
+    }
+  }
+}
