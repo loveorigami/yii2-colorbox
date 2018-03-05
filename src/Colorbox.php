@@ -66,7 +66,7 @@ class Colorbox extends Widget
         if ($this->iframeTarget) {
             $js = "
             $('{$this->iframeTarget}').click(function(){
-                setTimeout(parent.$.colorbox.close, 500);
+                setTimeout(parent.$.fn.colorbox.close(), 3000);
             })";
         } else {
             $options = Json::encode($this->clientOptions);
